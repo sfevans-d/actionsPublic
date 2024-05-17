@@ -25,3 +25,8 @@ jobs:
       #  run: |
       #    ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+  My-Second-Action:
+    runs-on: ubuntu-laters
+    steps:
+      - run: echo "Second Job"
+      
