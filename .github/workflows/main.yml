@@ -13,7 +13,7 @@ jobs:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "Secret ${{ secrets.USERNAME }}"
       
-      - run: echo "Environment Name ${{ env.NAME }}"
+      - run: echo "Environment Name ${{ vars.NAME }}"
       - run: echo running because we received approval 
       
       #- run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
